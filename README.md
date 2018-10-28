@@ -146,3 +146,8 @@ Because your Jenkins job log is a JSON object, in the case you don’t want to s
 For instance, in the above example, if you write log_key_name message then only the value of message key will be sent to Coralogix. If you do want to send the entire message then you can just delete this key.
 
 Restart Logstash.
+
+
+### Jenkins Configuration
+
+Using Jenkins "Plugin Manager" please install Logstash plugin. (More information about Jenkins Logstash Plugin: https://wiki.jenkins.io/display/JENKINS/Logstash+Plugin )

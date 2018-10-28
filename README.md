@@ -141,7 +141,7 @@ The first key (config_params) is mandatory while the other two are optional.
           }
 }
 ```
-Because your AWS Kinesis input stream is a JSON object, in the case you don’t want to send the entire JSON, rather just a portion of it, you can write the value of the key you want to send in the log_key_name.
+Because your Jenkins job log is a JSON object, in the case you don’t want to send the entire JSON, rather just a portion of it, you can write the value of the key you want to send in the log_key_name.
 
 For instance, in the above example, if you write log_key_name message then only the value of message key will be sent to Coralogix. If you do want to send the entire message then you can just delete this key.
 
